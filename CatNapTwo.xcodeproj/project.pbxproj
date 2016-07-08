@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03739F4E1D2F94EE0007D6DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03739F4D1D2F94EE0007D6DF /* AppDelegate.swift */; };
+		03739F501D2F94EE0007D6DF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 03739F4F1D2F94EE0007D6DF /* GameScene.sks */; };
+		03739F521D2F94EE0007D6DF /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 03739F511D2F94EE0007D6DF /* Actions.sks */; };
+		03739F541D2F94EE0007D6DF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03739F531D2F94EE0007D6DF /* GameScene.swift */; };
+		03739F561D2F94EE0007D6DF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03739F551D2F94EE0007D6DF /* GameViewController.swift */; };
+		03739F591D2F94EE0007D6DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03739F571D2F94EE0007D6DF /* Main.storyboard */; };
+		03739F5B1D2F94EE0007D6DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03739F5A1D2F94EE0007D6DF /* Assets.xcassets */; };
+		03739F5E1D2F94EE0007D6DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03739F5C1D2F94EE0007D6DF /* LaunchScreen.storyboard */; };
+		03739F6B1D2F95140007D6DF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03739F691D2F95140007D6DF /* Interface.storyboard */; };
+		03739F6D1D2F95140007D6DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03739F6C1D2F95140007D6DF /* Assets.xcassets */; };
+		03739F741D2F95140007D6DF /* CatNapTwoWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 03739F731D2F95140007D6DF /* CatNapTwoWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		03739F7B1D2F95140007D6DF /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03739F7A1D2F95140007D6DF /* InterfaceController.swift */; };
+		03739F7D1D2F95140007D6DF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 03739F7C1D2F95140007D6DF /* GameScene.sks */; };
+		03739F7F1D2F95140007D6DF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03739F7E1D2F95140007D6DF /* GameScene.swift */; };
+		03739F811D2F95140007D6DF /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03739F801D2F95140007D6DF /* ExtensionDelegate.swift */; };
+		03739F831D2F95140007D6DF /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03739F821D2F95140007D6DF /* NotificationController.swift */; };
+		03739F851D2F95140007D6DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03739F841D2F95140007D6DF /* Assets.xcassets */; };
+		03739F891D2F95140007D6DF /* CatNapTwoWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 03739F671D2F95140007D6DF /* CatNapTwoWatch.app */; };
+		03BCD27F1D2FED81000FE6CF /* Cat.sks in Resources */ = {isa = PBXBuildFile; fileRef = 03BCD27E1D2FED81000FE6CF /* Cat.sks */; };
+		03BCD2861D2FF0E1000FE6CF /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03BCD2811D2FF0E1000FE6CF /* backgroundMusic.mp3 */; };
+		03BCD2871D2FF0E1000FE6CF /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03BCD2821D2FF0E1000FE6CF /* lose.mp3 */; };
+		03BCD2881D2FF0E1000FE6CF /* mrreow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03BCD2831D2FF0E1000FE6CF /* mrreow.mp3 */; };
+		03BCD2891D2FF0E1000FE6CF /* pop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03BCD2841D2FF0E1000FE6CF /* pop.mp3 */; };
+		03BCD28A1D2FF0E1000FE6CF /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03BCD2851D2FF0E1000FE6CF /* win.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03739F751D2F95140007D6DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03739F421D2F94EE0007D6DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03739F721D2F95140007D6DF;
+			remoteInfo = "CatNapTwoWatch Extension";
+		};
+		03739F871D2F95140007D6DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03739F421D2F94EE0007D6DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03739F661D2F95140007D6DF;
+			remoteInfo = CatNapTwoWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		03739F8D1D2F95140007D6DF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				03739F741D2F95140007D6DF /* CatNapTwoWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03739F911D2F95140007D6DF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				03739F891D2F95140007D6DF /* CatNapTwoWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03739F4A1D2F94EE0007D6DF /* CatNapTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatNapTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03739F4D1D2F94EE0007D6DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03739F4F1D2F94EE0007D6DF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		03739F511D2F94EE0007D6DF /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		03739F531D2F94EE0007D6DF /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		03739F551D2F94EE0007D6DF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		03739F581D2F94EE0007D6DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03739F5A1D2F94EE0007D6DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03739F5D1D2F94EE0007D6DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03739F5F1D2F94EE0007D6DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03739F671D2F95140007D6DF /* CatNapTwoWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatNapTwoWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03739F6A1D2F95140007D6DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		03739F6C1D2F95140007D6DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03739F6E1D2F95140007D6DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03739F731D2F95140007D6DF /* CatNapTwoWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CatNapTwoWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03739F791D2F95140007D6DF /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		03739F7A1D2F95140007D6DF /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		03739F7C1D2F95140007D6DF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		03739F7E1D2F95140007D6DF /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		03739F801D2F95140007D6DF /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		03739F821D2F95140007D6DF /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		03739F841D2F95140007D6DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03739F861D2F95140007D6DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03BCD27E1D2FED81000FE6CF /* Cat.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Cat.sks; path = ../Cat.sks; sourceTree = "<group>"; };
+		03BCD2811D2FF0E1000FE6CF /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundMusic.mp3; sourceTree = "<group>"; };
+		03BCD2821D2FF0E1000FE6CF /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lose.mp3; sourceTree = "<group>"; };
+		03BCD2831D2FF0E1000FE6CF /* mrreow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mrreow.mp3; sourceTree = "<group>"; };
+		03BCD2841D2FF0E1000FE6CF /* pop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pop.mp3; sourceTree = "<group>"; };
+		03BCD2851D2FF0E1000FE6CF /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03739F471D2F94EE0007D6DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03739F701D2F95140007D6DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03739F411D2F94EE0007D6DF = {
+			isa = PBXGroup;
+			children = (
+				03739F4C1D2F94EE0007D6DF /* CatNapTwo */,
+				03739F681D2F95140007D6DF /* CatNapTwoWatch */,
+				03739F771D2F95140007D6DF /* CatNapTwoWatch Extension */,
+				03739F4B1D2F94EE0007D6DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03739F4B1D2F94EE0007D6DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03739F4A1D2F94EE0007D6DF /* CatNapTwo.app */,
+				03739F671D2F95140007D6DF /* CatNapTwoWatch.app */,
+				03739F731D2F95140007D6DF /* CatNapTwoWatch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03739F4C1D2F94EE0007D6DF /* CatNapTwo */ = {
+			isa = PBXGroup;
+			children = (
+				03BCD2801D2FF0E1000FE6CF /* Sounds */,
+				03BCD27E1D2FED81000FE6CF /* Cat.sks */,
+				03739F4D1D2F94EE0007D6DF /* AppDelegate.swift */,
+				03739F4F1D2F94EE0007D6DF /* GameScene.sks */,
+				03739F511D2F94EE0007D6DF /* Actions.sks */,
+				03739F531D2F94EE0007D6DF /* GameScene.swift */,
+				03739F551D2F94EE0007D6DF /* GameViewController.swift */,
+				03739F571D2F94EE0007D6DF /* Main.storyboard */,
+				03739F5A1D2F94EE0007D6DF /* Assets.xcassets */,
+				03739F5C1D2F94EE0007D6DF /* LaunchScreen.storyboard */,
+				03739F5F1D2F94EE0007D6DF /* Info.plist */,
+			);
+			path = CatNapTwo;
+			sourceTree = "<group>";
+		};
+		03739F681D2F95140007D6DF /* CatNapTwoWatch */ = {
+			isa = PBXGroup;
+			children = (
+				03739F691D2F95140007D6DF /* Interface.storyboard */,
+				03739F6C1D2F95140007D6DF /* Assets.xcassets */,
+				03739F6E1D2F95140007D6DF /* Info.plist */,
+			);
+			path = CatNapTwoWatch;
+			sourceTree = "<group>";
+		};
+		03739F771D2F95140007D6DF /* CatNapTwoWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				03739F7A1D2F95140007D6DF /* InterfaceController.swift */,
+				03739F7C1D2F95140007D6DF /* GameScene.sks */,
+				03739F7E1D2F95140007D6DF /* GameScene.swift */,
+				03739F801D2F95140007D6DF /* ExtensionDelegate.swift */,
+				03739F821D2F95140007D6DF /* NotificationController.swift */,
+				03739F841D2F95140007D6DF /* Assets.xcassets */,
+				03739F861D2F95140007D6DF /* Info.plist */,
+				03739F781D2F95140007D6DF /* Supporting Files */,
+			);
+			path = "CatNapTwoWatch Extension";
+			sourceTree = "<group>";
+		};
+		03739F781D2F95140007D6DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03739F791D2F95140007D6DF /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03BCD2801D2FF0E1000FE6CF /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				03BCD2811D2FF0E1000FE6CF /* backgroundMusic.mp3 */,
+				03BCD2821D2FF0E1000FE6CF /* lose.mp3 */,
+				03BCD2831D2FF0E1000FE6CF /* mrreow.mp3 */,
+				03BCD2841D2FF0E1000FE6CF /* pop.mp3 */,
+				03BCD2851D2FF0E1000FE6CF /* win.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03739F491D2F94EE0007D6DF /* CatNapTwo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03739F621D2F94EE0007D6DF /* Build configuration list for PBXNativeTarget "CatNapTwo" */;
+			buildPhases = (
+				03739F461D2F94EE0007D6DF /* Sources */,
+				03739F471D2F94EE0007D6DF /* Frameworks */,
+				03739F481D2F94EE0007D6DF /* Resources */,
+				03739F911D2F95140007D6DF /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03739F881D2F95140007D6DF /* PBXTargetDependency */,
+			);
+			name = CatNapTwo;
+			productName = CatNapTwo;
+			productReference = 03739F4A1D2F94EE0007D6DF /* CatNapTwo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03739F661D2F95140007D6DF /* CatNapTwoWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03739F8E1D2F95140007D6DF /* Build configuration list for PBXNativeTarget "CatNapTwoWatch" */;
+			buildPhases = (
+				03739F651D2F95140007D6DF /* Resources */,
+				03739F8D1D2F95140007D6DF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03739F761D2F95140007D6DF /* PBXTargetDependency */,
+			);
+			name = CatNapTwoWatch;
+			productName = CatNapTwoWatch;
+			productReference = 03739F671D2F95140007D6DF /* CatNapTwoWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		03739F721D2F95140007D6DF /* CatNapTwoWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03739F8A1D2F95140007D6DF /* Build configuration list for PBXNativeTarget "CatNapTwoWatch Extension" */;
+			buildPhases = (
+				03739F6F1D2F95140007D6DF /* Sources */,
+				03739F701D2F95140007D6DF /* Frameworks */,
+				03739F711D2F95140007D6DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CatNapTwoWatch Extension";
+			productName = "CatNapTwoWatch Extension";
+			productReference = 03739F731D2F95140007D6DF /* CatNapTwoWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03739F421D2F94EE0007D6DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = nvovap;
+				TargetAttributes = {
+					03739F491D2F94EE0007D6DF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ML92WQMC99;
+						DevelopmentTeamName = "Vladimir Nevinnyi";
+						ProvisioningStyle = Automatic;
+					};
+					03739F661D2F95140007D6DF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ML92WQMC99;
+						DevelopmentTeamName = "Vladimir Nevinnyi";
+						ProvisioningStyle = Automatic;
+					};
+					03739F721D2F95140007D6DF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ML92WQMC99;
+						DevelopmentTeamName = "Vladimir Nevinnyi";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 03739F451D2F94EE0007D6DF /* Build configuration list for PBXProject "CatNapTwo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03739F411D2F94EE0007D6DF;
+			productRefGroup = 03739F4B1D2F94EE0007D6DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03739F491D2F94EE0007D6DF /* CatNapTwo */,
+				03739F661D2F95140007D6DF /* CatNapTwoWatch */,
+				03739F721D2F95140007D6DF /* CatNapTwoWatch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03739F481D2F94EE0007D6DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BCD27F1D2FED81000FE6CF /* Cat.sks in Resources */,
+				03BCD28A1D2FF0E1000FE6CF /* win.mp3 in Resources */,
+				03BCD2871D2FF0E1000FE6CF /* lose.mp3 in Resources */,
+				03BCD2861D2FF0E1000FE6CF /* backgroundMusic.mp3 in Resources */,
+				03739F591D2F94EE0007D6DF /* Main.storyboard in Resources */,
+				03BCD2891D2FF0E1000FE6CF /* pop.mp3 in Resources */,
+				03BCD2881D2FF0E1000FE6CF /* mrreow.mp3 in Resources */,
+				03739F501D2F94EE0007D6DF /* GameScene.sks in Resources */,
+				03739F5B1D2F94EE0007D6DF /* Assets.xcassets in Resources */,
+				03739F5E1D2F94EE0007D6DF /* LaunchScreen.storyboard in Resources */,
+				03739F521D2F94EE0007D6DF /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03739F651D2F95140007D6DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03739F6D1D2F95140007D6DF /* Assets.xcassets in Resources */,
+				03739F6B1D2F95140007D6DF /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03739F711D2F95140007D6DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03739F851D2F95140007D6DF /* Assets.xcassets in Resources */,
+				03739F7D1D2F95140007D6DF /* GameScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03739F461D2F94EE0007D6DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03739F541D2F94EE0007D6DF /* GameScene.swift in Sources */,
+				03739F561D2F94EE0007D6DF /* GameViewController.swift in Sources */,
+				03739F4E1D2F94EE0007D6DF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03739F6F1D2F95140007D6DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03739F7F1D2F95140007D6DF /* GameScene.swift in Sources */,
+				03739F7B1D2F95140007D6DF /* InterfaceController.swift in Sources */,
+				03739F831D2F95140007D6DF /* NotificationController.swift in Sources */,
+				03739F811D2F95140007D6DF /* ExtensionDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03739F761D2F95140007D6DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03739F721D2F95140007D6DF /* CatNapTwoWatch Extension */;
+			targetProxy = 03739F751D2F95140007D6DF /* PBXContainerItemProxy */;
+		};
+		03739F881D2F95140007D6DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03739F661D2F95140007D6DF /* CatNapTwoWatch */;
+			targetProxy = 03739F871D2F95140007D6DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03739F571D2F94EE0007D6DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03739F581D2F94EE0007D6DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03739F5C1D2F94EE0007D6DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03739F5D1D2F94EE0007D6DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		03739F691D2F95140007D6DF /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03739F6A1D2F95140007D6DF /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03739F601D2F94EE0007D6DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03739F611D2F94EE0007D6DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03739F631D2F94EE0007D6DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CatNapTwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nvovap.com.CatNapTwo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		03739F641D2F94EE0007D6DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CatNapTwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nvovap.com.CatNapTwo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		03739F8B1D2F95140007D6DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "CatNapTwoWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nvovap.com.CatNapTwo.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		03739F8C1D2F95140007D6DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "CatNapTwoWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nvovap.com.CatNapTwo.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		03739F8F1D2F95140007D6DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = CatNapTwoWatch_Extension;
+				INFOPLIST_FILE = CatNapTwoWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = nvovap.com.CatNapTwo.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		03739F901D2F95140007D6DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = CatNapTwoWatch_Extension;
+				INFOPLIST_FILE = CatNapTwoWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = nvovap.com.CatNapTwo.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03739F451D2F94EE0007D6DF /* Build configuration list for PBXProject "CatNapTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03739F601D2F94EE0007D6DF /* Debug */,
+				03739F611D2F94EE0007D6DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03739F621D2F94EE0007D6DF /* Build configuration list for PBXNativeTarget "CatNapTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03739F631D2F94EE0007D6DF /* Debug */,
+				03739F641D2F94EE0007D6DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03739F8A1D2F95140007D6DF /* Build configuration list for PBXNativeTarget "CatNapTwoWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03739F8B1D2F95140007D6DF /* Debug */,
+				03739F8C1D2F95140007D6DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03739F8E1D2F95140007D6DF /* Build configuration list for PBXNativeTarget "CatNapTwoWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03739F8F1D2F95140007D6DF /* Debug */,
+				03739F901D2F95140007D6DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03739F421D2F94EE0007D6DF /* Project object */;
+}
